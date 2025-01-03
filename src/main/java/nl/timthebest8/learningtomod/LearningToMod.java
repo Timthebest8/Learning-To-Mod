@@ -2,6 +2,7 @@ package nl.timthebest8.learningtomod;
 
 import net.fabricmc.api.ModInitializer;
 
+import nl.timthebest8.learningtomod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,6 @@ public class LearningToMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
